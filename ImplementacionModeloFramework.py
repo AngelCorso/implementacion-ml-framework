@@ -26,5 +26,8 @@ clf.fit(X_train, y_train)
 # Predicción
 Y_hat = clf.predict(X_test)
 
-# Accuracy del modelo
-print('Accuracy: ', accuracy_score(y_test, Y_hat))
+# Resultados del modelo
+result = y_test
+result['y_val'] = y_val
+print("Comparación valores esperados vs valores predichos:\n", result[:10])
+print('Accuracy: ', accuracy_score(y_val, Y_hat))
