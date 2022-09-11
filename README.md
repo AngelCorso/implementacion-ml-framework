@@ -8,7 +8,9 @@ En esta implementación se utiliza el conjunto de datos iris y el modelo random 
 
 Al ejecutar el programa se puede observar el accuracy del modelo y una comparación de 10 observaciones de los datos esperados y los datos predichos.
 
-0 - Iris setora
+0 - Iris setosa
+
 1 - Iris versicolor
+
 2 - Iris virginica
 
